@@ -1,1 +1,4 @@
-This is a game called tic-tac-toe.in this we have 2 players ,and in this we have 2 symbols X and O. if one  player keep X symbol and another player has to put O symbol. when 3X's or 3O's are in a row or column or cross than the game is finished otherwise game is draw.
+This is a game called tic-tac-toe.in this we have 2 players. 
+In this we have 2 symbols X and O.
+if one  player keep X symbol and another player has to put O symbol.
+when 3X's or 3O's are in a row or column or cross than the game is finished otherwise game is tie.
