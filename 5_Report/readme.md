@@ -24,8 +24,7 @@ The following example game is won by the first player, X:
 # DESIGN
 ## BEHAVIOURAL DIAGRAM
 ### USE CASE
-
-![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/use%20case.p)
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/use%20case.png)
 
 
 
