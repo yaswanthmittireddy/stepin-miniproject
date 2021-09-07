@@ -85,16 +85,19 @@ Implemented using Functions , loops and other functionalities of C.
 ## OUTPUT 2
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%202.png)
 ## INPUT 3
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/input%203.png)
 ## OUTPUT 3
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%203.png
+)
 ## INPUT 4
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%203.png
+)
 ## OUTPUT 4
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%204.png)
 ## INPUT 5
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/input%205.png
+)
 ## OUTPUT 5
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%205.png)
 
 
