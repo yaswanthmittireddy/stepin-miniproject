@@ -28,8 +28,8 @@ The following example game is won by the first player, X:
 ### ACTIVITY DIAGRAM
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/Activity%20diagram.png)
 
-# STRUCTURAL DIAGRAM
-## CLASS
-![]()
+## STRUCTURAL DIAGRAM
+### CLASS DIAGRAM
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/Class%20diagram.png)
 
 
