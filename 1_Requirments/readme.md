@@ -11,7 +11,7 @@ The main objectives of this project are:
 * This game displays wheather the player won the game or lost the game, and also display if it is draw.
 
 ## SWOT ANALYSIS
-![image](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/SWOT.jpeg)
+![image](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/SWOT.jpeg)
 
 
 
