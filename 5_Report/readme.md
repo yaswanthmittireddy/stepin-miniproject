@@ -76,5 +76,9 @@ Implemented using Functions , loops and other functionalities of C.
 | T_04 | Check if first Row is 3 O's| O O O | Player 1 win | Player 1 win | Pass |
 
 # IMAGES RELATED TO PROJECT
+## INPUT 1
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/input%201.png)
+## OUTPUT 1
+
 
 
