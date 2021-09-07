@@ -20,6 +20,37 @@ In this course, we're going to learn how to build Tic Tac Toe in Ruby. Just in c
 The following example game is won by the first player, X:
 
 ![alt tag](http://miro.medium.com/max/1024/1*Syzc_BbO0QHTx74NLHcpiQ.png)
+## Objective
+The main objectives of this project are: 
+* Tic-Tac-Toe Game, Here the user can decide to play with the computer(single player mode) or with other user(double player mode) .
+* This game displays wheather the player won the game or lost the game, and also display if it is draw.
+
+## SWOT ANALYSIS
+![image](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/SWOT.jpeg)
+
+
+
+## **4 W's and 1 H**
+
+## Who
+
+Anyone who gets stressed and childers during fun hours  can play the game to have some relaxation.
+
+## What
+
+This project is concerned about developing a game which makes us to think logically to win the game.
+
+## When
+
+The children are encouraged to think more logically. They,  naturally develop their logical-mathematical thinking, which can help them in subjects such as math and engineering in the future.
+
+## Why
+
+As this project uses C programming language  it can be easy to understand the logic.
+
+## How
+
+Implemented using Functions , loops and other functionalities of C.
 
 # DESIGN
 ## BEHAVIOURAL DIAGRAM
@@ -33,5 +64,8 @@ The following example game is won by the first player, X:
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/Class%20diagram.png)
 ### SEQUENCE DIAGRAM
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/sqeuence%20diagram.png)
+
+
+# TEST PLAN
 
 
