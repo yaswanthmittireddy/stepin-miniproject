@@ -83,7 +83,7 @@ Implemented using Functions , loops and other functionalities of C.
 ## INPUT 2
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/input%202.png)
 ## OUTPUT 2
-![]()
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output%202.png)
 ## INPUT 3
 ![]()
 ## OUTPUT 3
