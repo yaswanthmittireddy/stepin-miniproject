@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://app.genmymodel.com/api/repository/Cuahuc/Tic-Tac-Toe -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tic Tac Toe - UML example"><meta name="keywords" content="Tic, Tac, Toe, UML example, UML diagram"><meta property="og:title" content="Tic Tac Toe"><meta property="og:description"><meta property="og:image" content="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_YtWEMy-tEDGZkPzbSUT8Hw/jpeg">
+
+	<title>Cuahuc - Tic Tac Toe</title>
+
+	<link rel="shortcut icon" href="https://app.genmymodel.com/api/favicon.ico">
+	<link rel="stylesheet" type="text/css" media="all" href="./class diagram_files/genmymodel-semantic.nocache.css">
+	<link rel="stylesheet" type="text/css" media="all" href="./class diagram_files/repository.css">
+	
+
+	<script async="" src="./class diagram_files/analytics.js.download"></script><script src="./class diagram_files/jquery-3.3.1.min.js.download"></script>
+	<script src="./class diagram_files/semantic.min.js.download"></script>
+	<script src="./class diagram_files/moment-with-locales.min.js.download"></script>
+
+	<!-- Google Analytics -->
+	<script>
+		/*<![CDATA[*/
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', "UA-32938123-1", 'auto');
+		ga('send', 'pageview');
+		/*]]>*/
+	</script>
+</head>
+<body class="pushable">
+<nav class="ui sidebar vertical labeled icon borderless menu inverted left">
+	<a class="item" href="https://www.genmymodel.com/">
+		<img src="./class diagram_files/GenMyModel.svg" alt="GenMyModel" class="ui image centered" style="height: 40px">
+	</a>
+	<a class="item" href="https://app.genmymodel.com/api/repository">
+		Explore
+	</a>
+	<a class="item" href="https://www.genmymodel.com/pricing">
+		Pricing
+	</a>
+	<a class="item" href="http://blog.genmymodel.com/">
+		Blog
+	</a>
+	<a class="item" href="http://help.genmymodel.com/">
+		Support
+	</a>
+</nav>
+<div class="pusher">
+	<header class="ui grid horizontally padded">
+	<div class="row middle aligned black">
+		<div class="ten wide column tablet hidden or lower hidden">
+			<nav class="ui menu borderless inverted attached">
+				<a class="item" href="https://www.genmymodel.com/">
+					<img src="./class diagram_files/GenMyModel.svg" alt="GenMyModel" class="ui image" style="height: 40px">
+				</a>
+			</nav>
+		</div>
+		<div class="two wide column tablet mobile only middle aligned">
+			<nav class="ui icon menu borderless inverted attached">
+				<a class="item" id="menuSidebarAction">
+					<i class="big bars icon"></i>
+				</a>
+			</nav>
+		</div>
+		<div class="fourteen wide tablet six wide computer column">
+			<div class="ui menu borderless inverted attached">
+				<nav class="right menu">
+					<a class="item widescreen only" href="https://app.genmymodel.com/api/">
+						Explore
+					</a>
+					<a class="item widescreen only" href="https://www.genmymodel.com/pricing">
+						Pricing
+					</a>
+					<a class="item widescreen only" href="http://blog.genmymodel.com/">
+						Blog
+					</a>
+					<a class="item widescreen only" href="http://help.genmymodel.com/">
+						Support
+					</a>
+					<div class="item">
+						<a class="ui button" href="https://app.genmymodel.com/api/login">
+							<i class="sign-in icon" aria-hidden="true"></i>
+							Sign in
+						</a>
+					</div>
+					<div class="item">
+						<a class="ui button primary" href="https://app.genmymodel.com/api/register">
+							<i class="share icon" aria-hidden="true"></i>
+							Sign up
+						</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+	<main>
+		<div class="ui grid padded">
+			<div class="row light-grey one column">
+				<div class="column">
+					<div class="ui grid one column container vertically padded">
+						<div class="column">
+							<div class="ui grid" id="header-content">
+	<div class="row two column middle aligned">
+		<div class="column">
+			<h1 class="ui header">
+				<img src="./class diagram_files/746c68d27a980f603a98999dbf3e085c.png" alt="Cuahuc" class="ui image circular">
+				<span class="content">
+					Tic Tac Toe
+					<span class="sub header">By Cuahuc</span>
+				</span>
+			</h1>
+		</div>
+		<div class="column right aligned">
+			<div class="ui label tiny blue">UML model</div>
+		</div>
+	</div>
+	<div class="row one column">
+		<div class="column">
+			<div class="ui breadcrumb">
+				<a class="section" href="https://app.genmymodel.com/api/repository">Repository</a>
+				<div class="divider"> /</div>
+				<a class="section" href="https://app.genmymodel.com/api/repository/Cuahuc">Cuahuc</a>
+				<div class="divider"> /</div>
+				<div class="active section">Tic Tac Toe</div>
+			</div>
+		</div>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui grid container one column" id="sticky-context">
+			<div class="column">
+				<div class="ui left rail">
+	<div class="ui grid one column vertically padded">
+		<div class="column widescreen only">
+			<div class="ui sticky" id="sticky-example-menu">
+				<div class="ui header center aligned grey">
+					Browse Examples
+				</div>
+				<nav class="ui vertical menu fluid">
+					<div class="item">
+						<div class="header">UML Examples</div>
+						<div class="menu">
+							<a href="https://app.genmymodel.com/api/repository/diagrams/uml" class="item">
+								UML diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/uml/class" class="item">
+								Class diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/uml/sequence" class="item">
+								Sequence diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/uml/usecase" class="item">
+								Use case diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/uml/activity" class="item">
+								Activity diagrams
+							</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="header">BPMN Examples</div>
+						<div class="menu">
+							<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn" class="item">
+								BPMN diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn/process" class="item">
+								Process diagrams
+							</a>
+							<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn/collaboration" class="item">
+								Collaboration diagrams
+							</a>
+						</div>
+					</div>
+					<a href="https://app.genmymodel.com/api/repository/diagrams/flowchart" class="item">
+						<span class="header">Flowchart Examples</span>
+					</a>
+					<a href="https://app.genmymodel.com/api/repository/diagrams/database" class="item">
+						<span class="header">Database Examples</span>
+					</a>
+					<a href="https://app.genmymodel.com/api/repository/diagrams/emf" class="item">
+						<span class="header">EMF Examples</span>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+				<div class="ui grid one column">
+					<div class="column right aligned widescreen hidden">
+						<div class="ui dropdown right top pointing" id="dropdown-example-menu" tabindex="0">
+	<div class="text">Browse Example</div>
+	<i class="dropdown icon" aria-hidden="true"></i>
+	<div class="menu" tabindex="-1">
+		<div class="header">UML Examples</div>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/uml" class="item">
+			UML diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/uml/class" class="item">
+			Class diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/uml/sequence" class="item">
+			Sequence diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/uml/usecase" class="item">
+			Use case diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/uml/activity" class="item">
+			Activity diagrams
+		</a>
+
+		<div class="divider"></div>
+		<div class="header">BPMN Examples</div>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn" class="item">
+			BPMN diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn/process" class="item">
+			Process diagrams
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/bpmn/collaboration" class="item">
+			Collaboration diagrams
+		</a>
+
+		<div class="divider"></div>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/flowchart" class="item">
+			<span class="header">Flowchart Examples</span>
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/database" class="item">
+			<span class="header">Database Examples</span>
+		</a>
+		<a href="https://app.genmymodel.com/api/repository/diagrams/emf" class="item">
+			<span class="header">EMF Examples</span>
+		</a>
+	</div>
+</div>
+					</div>
+					<div class="column">
+						<div id="page-content" class="ui grid one column">
+	<div class="column">
+		<div class="ui grid">
+			<div class="row one column">
+				<div class="column">
+					<p>
+						<strong>UML model</strong>
+						created by
+						<a href="https://app.genmymodel.com/api/repository/Cuahuc">Cuahuc</a>.
+					</p>
+					
+				</div>
+			</div>
+			<div class="row two column stackable">
+				<div class="column" style="color: rgba(0,0,0,.4);">
+					<i class="clock outline icon"></i>
+					Updated on
+					<span id="project-time">Nov 16, 2013</span>
+				</div>
+				<div class="column right aligned">
+					<a href="https://app.genmymodel.com/editor/fork/_YtWEMC-tEDGZkPzbSUT8Hw" class="ui primary button small">
+						<i class="clone icon" aria-hidden="true"></i>
+						Use as template
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="column">
+		<div class="ui attached message" style="padding: 0.5rem;">
+			<div class="ui grid two column horizontally padded">
+				<div class="column">
+					<div class="ui left top pointing dropdown scrolling" id="diagram-dropdown" tabindex="0">
+						<i class="icon image"></i>
+						<div class="text">Tic-Tac-Toe-diag</div>
+						<i class="dropdown icon" aria-hidden="true"></i>
+						<div class="menu transition hidden" tabindex="-1">
+							<div class="ui icon search input">
+								<i class="search icon"></i>
+								<input type="text" placeholder="Search diagram...">
+							</div>
+							<div class="divider"></div>
+							<div class="item active" data-value="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_YtWEMy-tEDGZkPzbSUT8Hw/viewer">Tic-Tac-Toe-diag</div>
+							<div class="item" data-value="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_P3DuMDCYEDGMy4l6SZPdpg/viewer">ClassDiagram</div>
+						</div>
+					</div>
+				</div>
+				<div class="column right aligned">
+					<strong>2</strong> diagrams
+				</div>
+			</div>
+		</div>
+		<div class="ui attached compact segment">
+			<div class="ui grid one column">
+				<div class="one column row">
+					<div class="column">
+						<iframe id="diagram-viewer" src="./class diagram_files/viewer.html" style="border: 0; height: 600px; width: 100%;"></iframe>
+					</div>
+				</div>
+				<div class="two column row middle aligned">
+					<div class="column">
+						<div class="ui primary small top left pointing dropdown button" id="download-dropdown" tabindex="0">
+							<i class="download icon" aria-hidden="true"></i>
+							Download as
+							<i class="dropdown icon"></i>
+							<div class="menu transition hidden" tabindex="-1">
+								<a href="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_YtWEMy-tEDGZkPzbSUT8Hw/png" target="_blank" class="item">
+									Download as PNG
+								</a>
+								<a href="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_YtWEMy-tEDGZkPzbSUT8Hw/jpeg" target="_blank" class="item">
+									Download as JPEG
+								</a>
+								<a href="https://app.genmymodel.com/api/projects/_YtWEMC-tEDGZkPzbSUT8Hw/diagrams/_YtWEMy-tEDGZkPzbSUT8Hw/svg" target="_blank" class="item">
+									Download as SVG
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column right aligned" id="share-buttons">
+						<a class="ui facebook button icon circular large" href="https://www.facebook.com/sharer.php?u=/api/repository/Cuahuc/Tic-Tac-Toe" target="_blank" title="Share on Facebook">
+							<i class="facebook icon" aria-hidden="true"></i>
+						</a>
+						<a class="ui twitter button icon circular large" href="https://www.twitter.com/share?url=/api/repository/Cuahuc/Tic-Tac-Toe" target="_blank" title="Share on Twitter">
+							<i class="twitter icon" aria-hidden="true"></i>
+						</a>
+						<a class="ui linkedin button icon circular large" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=/api/repository/Cuahuc/Tic-Tac-Toe">
+							<i class="linkedin icon" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="column"></div>
+			<div class="column"></div>
+		</div>
+	</main>
+	<footer>
+	<div class="ui grid">
+		<div class="row black one column center-m aligned">
+			<div class="column">
+				<div class="ui three column grid container vertically padded stackable">
+					<div class="column">
+						<div class="ui grid one column">
+							<div class="column">
+								<img src="./class diagram_files/GenMyModel.svg" alt="GenMyModel" style="max-height: 40px;">
+							</div>
+							<div class="column">
+								<p>
+									GenMyModel is modeling platform in the cloud for software
+									architects and
+									developers.
+								</p>
+							</div>
+							<div class="column">
+								<a href="https://www.genmymodel.com/contact-us" class="ui button tiny">
+									<i class="envelope outline icon"></i>
+									Contact us
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui grid one column">
+							<div class="column">
+								<div class="ui header inverted">
+									<i class="share icon"></i>
+									Want more?
+								</div>
+							</div>
+							<div class="column">
+								<div class="ui list inverted tiny celled horizontal">
+									<a class="item" href="https://www.genmymodel.com/class-diagram-online">
+										Class Diagram Online
+									</a>
+									<a class="item" href="https://www.genmymodel.com/uml-class-diagram">
+										UML class diagram
+									</a>
+									<a class="item" href="https://www.genmymodel.com/sequence-diagram-online">
+										Sequence Diagram Online
+									</a>
+									<a class="item" href="https://www.genmymodel.com/sequence-diagram-tool">
+										Sequence Diagram Tool
+									</a>
+									<a class="item" href="https://www.genmymodel.com/activity-diagram-online">
+										Activity Diagram Online
+									</a>
+									<a class="item" href="https://www.genmymodel.com/use-case-diagram-online">
+										Use Case Diagram Online
+									</a>
+									<a class="item" href="https://www.genmymodel.com/bpmn-online-tool">
+										BPMN Diagram Online
+									</a>
+									<a class="item" href="https://www.genmymodel.com/bpm-workflow-software">
+										BPM Workflow Software
+									</a>
+									<a class="item" href="https://www.genmymodel.com/flowchart-software">
+										Flowchart Diagram Online
+									</a>
+									<a class="item" href="https://app.genmymodel.com/api/">
+										Explore Examples
+									</a>
+									<a class="item" href="https://www.genmymodel.com/database-diagram-online">
+										Database Diagram Online
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui grid one column">
+							<div class="column">
+								<div class="ui header inverted">
+									<i class="wifi icon"></i>
+									Stay in touch
+								</div>
+							</div>
+							<div class="column">
+								<div class="ui list horizontal">
+									<div class="item">
+										<a class="ui button twitter icon circular large" target="_blank" href="https://twitter.com/genmymodel">
+											<i class="twitter icon"></i>
+										</a>
+									</div>
+									<div class="item">
+										<a class="ui button facebook icon circular large" target="_blank" href="https://www.facebook.com/genmymodel">
+											<i class="facebook icon"></i>
+										</a>
+									</div>
+									<div class="item">
+										<a class="ui button linkedin icon circular large" target="_blank" href="https://www.linkedin.com/company/3036821">
+											<i class="linkedin icon"></i>
+										</a>
+									</div>
+									<div class="item">
+										<a class="ui button youtube icon circular large" target="_blank" href="https://youtube.com/genmymodel">
+											<i class="youtube icon"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+<script>
+	$(document).ready(function () {
+		$('.ui.sidebar').sidebar({}).sidebar('attach events', '#menuSidebarAction');
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$('#sticky-example-menu').sticky({
+			context: '#sticky-context',
+			pushing: true
+		});
+
+		$('#dropdown-example-menu').dropdown();
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$('#download-dropdown').dropdown({
+			action: 'hide'
+		});
+		$('#diagram-dropdown').dropdown({
+			onChange: function (value) {
+				$('#diagram-viewer').attr('src', value);
+			}
+		});
+
+		$('#share-buttons a').each(function () {
+			var link = $(this);
+			link.click(function (event) {
+				event.preventDefault();
+				window.open(link.attr('href'), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=800');
+				return false;
+			});
+		});
+
+		var projectTime = $('#project-time');
+		projectTime.html(moment(projectTime.html()).format('ll'));
+		projectTime.removeAttr("style");
+	});
+</script>
+
+</body></html>
