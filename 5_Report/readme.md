@@ -31,5 +31,7 @@ The following example game is won by the first player, X:
 ## STRUCTURAL DIAGRAM
 ### CLASS DIAGRAM
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/Class%20diagram.png)
+### SEQUENCE DIAGRAM
+![]()
 
 
