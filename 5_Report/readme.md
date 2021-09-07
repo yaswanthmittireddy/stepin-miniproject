@@ -21,5 +21,12 @@ The following example game is won by the first player, X:
 
 ![alt tag](http://miro.medium.com/max/1024/1*Syzc_BbO0QHTx74NLHcpiQ.png)
 
+# DESIGN
+## BEHAVIOURAL DIAGRAM
+### USE CASE
+
+![alt tag](http://D:\images\use case.png)
+
+
 
 
