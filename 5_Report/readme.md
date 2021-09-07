@@ -79,6 +79,22 @@ Implemented using Functions , loops and other functionalities of C.
 ## INPUT 1
 ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/input%201.png)
 ## OUTPUT 1
-
+![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/6_Image%26Videos/output1.png)
+## INPUT 2
+![]()
+## OUTPUT 2
+![]()
+## INPUT 3
+![]()
+## OUTPUT 3
+![]()
+## INPUT 4
+![]()
+## OUTPUT 4
+![]()
+## INPUT 5
+![]()
+## OUTPUT 5
+![]()
 
 
