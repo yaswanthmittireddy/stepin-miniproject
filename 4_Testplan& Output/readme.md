@@ -1,10 +1,10 @@
   ## PLAYER 1 WIN
    
-  ## PLAYER 1 WIN
+  ## PLAYER 2 WIN
 
-  ## PLAYER 1 WIN
+  ## INVALID MOVE(10)
      
-  ## PLAYER 1 WIN
+  ## INVALID MOVE(-3)
 
 
 
