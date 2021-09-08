@@ -1,4 +1,5 @@
   ## PLAYER 1 WIN
+  ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/PLAYER%201%20WIN.png)
    
   ## PLAYER 2 WIN
 
