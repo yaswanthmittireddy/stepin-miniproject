@@ -1,4 +1,4 @@
-# Abstract
+# ABSTRACT
   Abstract: Tic-tac-toe is a fun game played by two players. Before starting the game, a 3x3 square grid is formed using two vertical and two horizontal lines. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
 |  PSNO  |  NAME  |
 |----| ----|
