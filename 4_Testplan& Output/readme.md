@@ -2,7 +2,7 @@
   ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/PLAYER%201%20WIN.png)
    
   ## PLAYER 2 WIN
-
+   ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/PLAYER%202%20WIN.png)
   ## INVALID MOVE(10)
      
   ## INVALID MOVE(-3)
