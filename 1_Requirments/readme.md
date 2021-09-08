@@ -36,6 +36,29 @@ As this project uses C programming language  it can be easy to understand the lo
 ## How
 
 Implemented using Functions , loops and other functionalities of C.
+# Detail requirements
+## High Level Requirements: 
+| ID | Description | 
+| ----- | ----- |
+| HR01 | User can be able to choose the mode of play |
+| HR01 | player1 chooses 'X' to play |
+| HR02 | computer choose 'O' to play |
+| HR03 | computer shall generate randon inputs |
+| HR04 | player shall win|
+| HR05 | player shall end up in a Draw situation|
+
+##  Low level Requirements:
+ 
+| ID | Description | 
+| ------ | --------- | 
+| LR01 | If the user presses '1', he'll be play with computer. |
+| LR02 | The user1 is playing with 'O', he'll get the first turn. | 
+| LR03 | If the computer gets 3 Xs or 3 Os in vertical,horizontal or diagonal row, User will lose. | 
+| LR04 | If neither the computer nor user gets 3 Xs or 3 Os in vertical,horizontal or diagonal row, game will end up with draw. | 
+| LR05 | If the user gets 3 Xs or 3 Os(as per his choice), in vertical,horizontal or diagonal row, he'll win. | 
+| LR06 | User shall lose|
+| LR07 | User shall win|
+| LR08 | User shall end up in a Draw situation|
 # RULES FOR TIC-TAC-TOE
 1. The game is played on a grid that's 3 squares by 3 squares.
 
