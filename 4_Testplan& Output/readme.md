@@ -4,14 +4,14 @@
   ## PLAYER 2 WIN
    ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/PLAYER%202%20WIN.png)
   ## INVALID MOVE(10)
-     
-  ## INVALID MOVE(-3)
+   ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/INVALID%20MOVE(10).png)  
+  ## INVALID MOVE(-4)
   ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/INVALID%20MOVE(-3).png)
 
 
 
 
-## Test Plan
+## TEST PLAN
 
 | Test ID | Description | Exp I/P | Exp O/P |	Actual Output | Type of Test |
 | --- | --- | --- | --- | --- | --- |
