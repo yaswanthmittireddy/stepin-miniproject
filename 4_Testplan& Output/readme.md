@@ -6,6 +6,7 @@
   ## INVALID MOVE(10)
      
   ## INVALID MOVE(-3)
+  ![](https://github.com/yaswanthmittireddy/stepin-miniproject/blob/main/7_Others/INVALID%20MOVE(-3).png)
 
 
 
