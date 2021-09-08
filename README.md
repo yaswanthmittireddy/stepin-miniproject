@@ -11,3 +11,6 @@ Tic-tac-toe is a game that is traditionally played by being drawn on paper, and 
 ![](https://www.code-inspector.com/project/28031/status/svg)
 
 [![CI](https://github.com/yaswanthmittireddy/stepin-miniproject/actions/workflows/main.yml/badge.svg)](https://github.com/yaswanthmittireddy/stepin-miniproject/actions/workflows/main.yml)
+
+
+[![cppcheck-action](https://github.com/yaswanthmittireddy/stepin-miniproject/actions/workflows/cppcheck%20(1).yml/badge.svg)](https://github.com/yaswanthmittireddy/stepin-miniproject/actions/workflows/cppcheck%20(1).yml)
